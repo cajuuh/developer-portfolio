@@ -33,7 +33,10 @@ export default async function Home() {
   return (
     <>
       <Head>
-        <meta property="og:title" content="Pedro's Developer Portfolio" />
+        <meta
+          property="og:title"
+          content="Pedro Alcantara Developer Portfolio"
+        />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cajuuh.dev" />
         <meta
