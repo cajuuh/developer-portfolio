@@ -1,17 +1,17 @@
-import { GoogleTagManager } from '@next/third-parties/google';
-import { Inter } from 'next/font/google';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import Footer from './components/footer';
-import Navbar from './components/navbar';
-import './css/card.scss';
-import './css/globals.scss';
-const inter = Inter({ subsets: ['latin'] });
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Inter } from "next/font/google";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import "./css/card.scss";
+import "./css/globals.scss";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Portfolio of Pedro Alcântara',
-  description: 'Take this template from github.',
-}
+  title: "Portfolio of Pedro Alcântara",
+  description: "Personal developer portfolio.",
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -26,5 +26,5 @@ export default function RootLayout({ children }) {
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
-  )
-};
+  );
+}

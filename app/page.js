@@ -36,7 +36,10 @@ export default async function Home() {
         <meta property="og:title" content="Pedro's Developer Portfolio" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://cajuuh.dev" />
-        <meta property="og:img" content="../../public/image/profile.png" />
+        <meta
+          property="og:img"
+          content="https://i.ibb.co/tpLQggc/2024-05-10-13-35-10-Portfolio-of-Pedro-Alc-ntara-Opera.png"
+        />
         <meta
           property="og:description"
           content="A front-end engineer who loves to create amazing applications that would help the world."
