@@ -7,7 +7,6 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
-import Head from "next/head";
 
 async function getData() {
   const res = await fetch(
@@ -32,22 +31,6 @@ export default async function Home() {
 
   return (
     <>
-      <Head>
-        <meta
-          property="og:title"
-          content="Pedro Alcantara Developer Portfolio"
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://cajuuh.dev" />
-        <meta
-          property="og:image"
-          content="https://i.ibb.co/tpLQggc/2024-05-10-13-35-10-Portfolio-of-Pedro-Alc-ntara-Opera.png"
-        />
-        <meta
-          property="og:description"
-          content="A front-end engineer who loves to create amazing applications that would help the world."
-        />
-      </Head>
       <HeroSection />
       <AboutSection />
       <Experience />

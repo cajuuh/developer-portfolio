@@ -10,7 +10,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Portfolio of Pedro Alcântara",
-  description: "Personal developer portfolio.",
+  description:
+    "A front-end engineer who loves to create amazing applications that would help the world.",
+  image:
+    "https://i.ibb.co/tpLQggc/2024-05-10-13-35-10-Portfolio-of-Pedro-Alc-ntara-Opera.png",
+  type: "website",
+  url: "https://cajuuh.dev",
 };
 
 export default function RootLayout({ children }) {
