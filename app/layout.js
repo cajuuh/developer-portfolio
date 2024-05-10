@@ -13,7 +13,8 @@ export const metadata = {
   description:
     "A front-end engineer who loves to create amazing applications that would help the world.",
   openGraph: {
-    image: `https://i.ibb.co/tpLQggc/2024-05-10-13-35-10-Portfolio-of-Pedro-Alc-ntara-Opera.png`,
+    image:
+      "https://i.ibb.co/FXcK8Zr/studio-33ec25bac63836583b87226a8eb35756-ckf3ur9u.jpg",
     type: "website",
     url: "https://cajuuh.dev",
   },
