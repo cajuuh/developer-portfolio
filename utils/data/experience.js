@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Front-End Egineer',
+    title: 'Front-End Engineer',
     company: "Dexian",
     duration: "(Nov 2023 - Present)"
   },
@@ -17,4 +17,5 @@ export const experiences = [
     company: "Framework Systems",
     duration: "(Apr 2021 - May 2022)"
   }
+
 ]
